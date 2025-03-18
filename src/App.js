@@ -31,7 +31,7 @@ function App() {
           {memes.map((meme) => (
             <div key={meme.id} className="meme-card">
               {loadingImages[meme.id] !== false && (
-                <div className="loading-spinner">
+                <div className="loading-spinner"> 
                   {/* SVG spinner */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
